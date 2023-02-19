@@ -63,6 +63,7 @@ int main(int ac, char **av)
 		printf("%s", str);
         printf("%s", str2);
 	 	free(str);
+		free(str2);
 		str = get_next_line(fd);
         str2 = get_next_line(fd2);
 	}
