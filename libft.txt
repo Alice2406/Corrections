@@ -1,0 +1,11 @@
+https://github.com/Tripouille/libftTester
+
+clone dans la libft
+cd libftTester
+make
+
+https://github.com/0x050f/libft-war-machine
+
+clone a cote de la libft
+bash grademe.sh
+change my_config.sh path : ../libft

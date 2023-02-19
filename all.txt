@@ -1,0 +1,8 @@
+- verifier toutes les lignes de header
+    cat *.c | grep @student
+
+- verifier la norminette
+    norminette
+
+- verifier les leaks
+    valgrind ./a.out
