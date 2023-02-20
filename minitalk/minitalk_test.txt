@@ -1,0 +1,10 @@
+verifier make server et client en meme temps
+leaks sur client et server 
+verifier mauvais pid du server
+verifier pas de chaine envoyer
+un caratere envoye 
+une grosse chaine envoyer 
+plusieurs grosse chaine envoyer a la suite 
+la programme doit etre rapide
+
+utiliser lorem ipsum 

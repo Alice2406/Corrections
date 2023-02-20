@@ -1,0 +1,10 @@
+tester toutes les maps error
+essayer fichier inexistant 
+essayer erreur nb d'arguments
+essayer la croix
+essayer esc 
+essayer sortir du jeu sans tous les collectives 
+essayer de passer sur les murs
+essayer les little map
+
+Les leaks sur tous les cas d'erreurs

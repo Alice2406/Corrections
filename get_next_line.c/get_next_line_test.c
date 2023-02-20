@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "get_next_line.h"
@@ -23,18 +22,6 @@ int main(int ac, char **av)
 	}
 	close (fd);
 }
-
-
-/*
-gcc -Wall -Werror -Wextra -D BUFFER_SIZE=1 get_next_line.c get_next_line_utils.c get_next_line_test.c
-test a faire 
-    - buffer size = 1 / = 0 / = 10000000 /= -12 
-    - sans definir buffer size
-    - fichier vide
-    - fichier inexistant
-    - pas d'arg
-pour la version bonus
-*/
 
 //version bonus 
 
@@ -70,28 +57,3 @@ int main(int ac, char **av)
 	close (fd);
     close (fd2);
 }
-
-/*
-        premier fichier 
-Hello
-ca va ?
-oui bien merci 
-
-        deuxieme fichier 
-
-Hey
-bien et toi ?
-de rien
-
-*/
-
-/*passer le tester
-https://github.com/Tripouille/gnlTester
-
-clone dans le fichier get_next_line
-cd gnlTester
-make
-
-hint : files/big_line_no_nl: TIMEOUT
-files/big_line_with_nl: TIMEOUT
-*/

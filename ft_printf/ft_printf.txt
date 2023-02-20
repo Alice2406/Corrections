@@ -1,0 +1,20 @@
+
+make
+gcc ${FLAGS} main.c libftprintf.a
+c | len = 1
+% | len = 1
+a | len = 1
+(null) | len = 6
+0x7ffffeffa713 | len = 14
+42 | len = 2
+-42 | len = 3
+4294967244 | len = 10
+5 | len = 1
+10 | len = 2
+10 | len = 2
+Crash: [1]    569119 segmentation fault (core dumped)  ./a.out
+
+Printf tester
+https://github.com/Tripouille/printfTester
+clone dans le printf 
+make 
