@@ -8,6 +8,7 @@ Cas d'erreur :
     - --4 5 
     - -2147483649
     - 2147483648
+    - 000000000000000000000000001
 
 essayer chaine deja trier 
 essayer petites chaine de 3 nombres
