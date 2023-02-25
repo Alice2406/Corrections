@@ -6,3 +6,5 @@
 
 - verifier les leaks
     valgrind ./a.out
+
+- verifier les malloc en cascade
